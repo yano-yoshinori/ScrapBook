@@ -22,6 +22,10 @@ class ViewController: NSViewController {
         }
     }
 
-
+    // 背景を透明にする
+    override func viewWillAppear() {
+        super.viewWillAppear()
+        self.view.window?.isOpaque = false
+        self.view.window?.backgroundColor = NSColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.5)
+    }
 }
-

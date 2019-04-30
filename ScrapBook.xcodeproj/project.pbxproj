@@ -13,6 +13,7 @@
 		C4A3BB1E2277C61100754989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A3BB1C2277C61100754989 /* Main.storyboard */; };
 		C4A3BB2A2277C61100754989 /* ScrapBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A3BB292277C61100754989 /* ScrapBookTests.swift */; };
 		C4A3BB352277C61100754989 /* ScrapBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A3BB342277C61100754989 /* ScrapBookUITests.swift */; };
+		C4A3BB432277C76E00754989 /* DraggableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A3BB422277C76E00754989 /* DraggableTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		C4A3BB302277C61100754989 /* ScrapBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrapBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A3BB342277C61100754989 /* ScrapBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrapBookUITests.swift; sourceTree = "<group>"; };
 		C4A3BB362277C61100754989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A3BB422277C76E00754989 /* DraggableTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				C4A3BB1C2277C61100754989 /* Main.storyboard */,
 				C4A3BB1F2277C61100754989 /* Info.plist */,
 				C4A3BB202277C61100754989 /* ScrapBook.entitlements */,
+				C4A3BB422277C76E00754989 /* DraggableTextView.swift */,
 			);
 			path = ScrapBook;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A3BB432277C76E00754989 /* DraggableTextView.swift in Sources */,
 				C4A3BB192277C61000754989 /* ViewController.swift in Sources */,
 				C4A3BB172277C61000754989 /* AppDelegate.swift in Sources */,
 			);
